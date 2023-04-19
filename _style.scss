@@ -1,0 +1,31 @@
+section {
+    .container {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: aqua;
+    
+        & > h1 {
+            font-size: 50px;
+            color:rgb(15, 0, 128);
+            margin-bottom: 25px;
+
+            
+    }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            & > img {
+                width: 40%;
+            }
+            & > p {
+                width: 55%;
+                font-size: 35px;
+                color: $color1;
+                line-height: 60px;
+            }
+        }
+    }
+
+ }
